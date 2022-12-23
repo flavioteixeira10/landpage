@@ -1297,7 +1297,7 @@ a:hover {
 }
 
 .card-blog .post-date {
-  color: #4e4e4e;
+  color: #3c3c3c;
   display: inline-block;
   float: right;
 }
@@ -1310,7 +1310,7 @@ a:hover {
 .box-comments,
 .widget-sidebar {
   padding: 2rem;
-  background-color: #fff;
+  background-color: #3c3c3c;
   margin-bottom: 3rem;
 }
 
@@ -1353,7 +1353,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul span {
-  color: #1e1e1e;
+  color: #ffffff;
 }
 
 .blog-wrapper .blockquote {
