@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Flávio Teixeira - O Milagre do Server-Driven-UI!</title>
+  <meta content="server driven ui" name="description">
+  <meta content="SDUI, programação, liderança, engenharia de software, flavio teixeira" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <!-- Styles -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <link href="../mentoria/css/stylesd.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="../index.html">Inicio</a></li>
+          <li><a class="nav-link scrollto " href="../blog.html">Blog</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <div class="hero hero-single route bg-image" style="background-image: url(../assets/img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h2 class="hero-title mb-4">O Milagre do Server-Driven-UI!</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ======= Blog Single Section ======= -->
+    <section class="blog-wrapper sect-pt4" id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="post-box">
+              <div class="post-thumb">
+                <img src="../assets/img/sdui.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="post-meta">
+                <h1 class="article-title">O Milagre do SDUI!</h1>
+                <ul>
+                  <li>
+                    <span class="bi bi-person"></span>
+                    <a href="../index.html#about">Flávio Teixeira</a>
+                  </li>
+                  <li>
+                    <span class="bi bi-tag"></span>
+                    <a href="#">Engenharia de Software</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="article-content">
+                <p>Mas que titulo apelativo, não? hahaha... afinal, você sabe o que é SDUI?</p>
+
+                <p>Server Driven UI é uma abordagem em que a interface de um aplicativo é construída a partir do backend.</p>
+
+                <p>Ao contrário do desenvolvimento tradicional, onde as atualizações na interface exigem uma nova versão do aplicativo e a atualização dos usuários, o Server Driven UI permite atualizações instantâneas e rápidas. Além de fornecer dados para exibir na interface, o servidor também envia instruções sobre como construir, exibir e responder às interações do usuário na interface do aplicativo. Isso permite atualizações e correções ágeis sem depender da aprovação da loja de aplicativos.</p>
+
+              <blockquote class="blockquote">
+                <p>Quais as vantagens da SDUI?</p>
+              </blockquote>
+
+               <p> Em uma implementação de SDUI, a interface do usuário no aplicativo é uma tela em branco. O aplicativo sabe que renderizará uma tela de listagem, mas não faz suposições sobre a aparência dessa tela. O aplicativo faz uma solicitação ao servidor que retorna a IU e os dados juntos.</p>
+
+                <div>
+                  <img style='height: 100%; width: 100%; object-fit: contain' src="../assets/img/blog/sdui1.jpg" />
+                </div>
+
+
+                <p>Já que não estamos modificando o aplicativo, então não é necessário enviar uma nova versão e esperar pela aprovação da Apple ou do Google. Como as atualizações são feitas no servidor, todos os usuários veem as mudanças imediatamente, sem atrasos. Essas atualizações, que costumavam levar semanas ou meses, agora podem ser feitas em dias ou horas. Dessa forma, as alterações são aplicadas de maneira consistente nos aplicativos iOS e Android, e todos os usuários veem a mesma versão simultaneamente.</p>
+
+                <p>(Isso sem contar em utilizar uma linguagem / ferramenta de multiplataforma, para potencializar o SDUI)</p>
+
+                <blockquote class="blockquote">
+                  <p>Testes A/B e desenvolvimento</p>
+                </blockquote>
+                
+                <p>Essa estrutura permite controlar a implantação de novos recursos, possibilitando testes A/B e evitando a necessidade de implantar recursos para todos os clientes simultaneamente.
+                Ao contrário do lançamento tradicional, que pode levar semanas para ser amplamente implementado, os recursos de interface do usuário orientados ao servidor são altamente personalizáveis e permitem tomar decisões sobre produtos no mesmo dia. Isso é útil tanto para escopos com alta incerteza, onde a iteração rápida é importante para entender o produto, quanto para produtos maduros que requerem experimentos para aumentar a conversão.</p>
+
+                <blockquote class="blockquote">
+                  <p>Conclusão</p>
+                </blockquote>
+
+                <p>Não existe bala de prata, sei que SDUI não é a solução para tudo quando falamos em desenvolvimento mobile, no entanto, é indiscutível seus ganhos quando falamos na implementação e entrega de novas features. Cada vez mais bigtechs estão utilizando esse modelo arquitetural e isso já faz pensar aqueles que a não utilizam, se estão ficando no acostamento...</p>
+
+                <p><a href="https://www.linkedin.com/pulse/o-milagre-do-server-driven-ui-fl%C3%A1vio-teixeira/">Fontes aqui!</a></p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- mentor -->
+  <header id="header" class="header">
+    <div class="section-counter paralax-mf bg-image">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-container">
+            <h1 class="h1-large">Mentorias Individuais para Programadores e Líderes!</h1>
+            <a class="btn-solid-lg page-scroll" href="../mentoria/index.html">Veja Mais</a>
+          </div> <!-- end of text-container -->
+        </div> <!-- end of col -->
+      </div> <!-- end of row -->
+    </div> <!-- end of container -->
+  </header> <!-- end of header -->
+  <!-- mentor -->
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="socials">
+      <ul>
+        <li><a href="https://www.instagram.com/flavio.7eixeira/" target="_blank" rel="noopener noreferrer"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+        <li><a href="https://linkedin.com/in/flavio7eixeira" target="_blank" rel="noopener noreferrer"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+        <li><a href="mailto:falecomflavioteixeira@gmail.com?subject=Olá, quero informações!" target="_blank" rel="noopener noreferrer"><span class="ico-circle"><i class="bi bi-wechat"></i></span></a></li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright & Designed by <strong>Flávio Teixeira</strong>.</p> 
+            <p>All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/typed.js/typed.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
