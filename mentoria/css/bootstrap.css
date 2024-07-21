@@ -4333,7 +4333,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.9rem 1rem;
 }
 
 .navbar .container,
@@ -4404,6 +4404,8 @@ input[type="button"].btn-block {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  right: 15px;
+  position: fixed;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
