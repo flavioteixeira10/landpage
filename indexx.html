@@ -2,6 +2,13 @@
 <html lang="pt">
 
 <head>
+  <script>
+  window.addEventListener("load", () => {
+    if (!window.location.hash) {
+      window.location.hash = "about";
+    }
+  });
+</script>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -35,21 +42,23 @@
     <div class="container">
 
       <h1><a href="index.html">Flávio Teixeira</a></h1>
-       <h2>Engineering <span>Tech</span> Manager</h2>
+      <h2>Engineering <span>Tech</span> Manager</h2>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link active" href="index.html#header">Home</a></li>
+          <!--li><a class="nav-link active" href="#header">Home</a></li-->
           <!--li><a class="nav-link" href="#about">Sobre</a></li-->
-          <li><a class="nav-link" href="index.html#services">Publicações</a></li>
-          <li><a class="nav-link" href="index.html#about">Sobre</a></li>
+          <li><a class="nav-link" href="#services">Publicações</a></li>
+          <li><a class="nav-link" href="#about">Sobre</a></li>
+          <li><a class="nav-link" href="https://app.awari.com.br/mentores/flavio-teixeira">Mentoria</a></li>
+          <li><a href="https://linkedin.com/in/flavio7eixeira"><i class="bi bi-linkedin"> LinkedIn</i></a></li>
           <li><a href="index-en.html"><i class="bi bi-globe-americas"> (EN)</i></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
       <div class="social-links">
-        <a href="index.html#about" class="twitter" ><i class="bi bi-person-circle"></i></a>
+        <a href="indexx.html#about" class="twitter" ><i class="bi bi-person-circle"></i></a>
         <a href="https://www.instagram.com/flavio.7eixeira/" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="https://linkedin.com/in/flavio7eixeira" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
@@ -64,7 +73,7 @@
     <div class="about-me container">
 
       <div class="section-title">
-        <h2>Sobre</h2>
+        <h2></h2>
       </div>
 
       <div class="row">
@@ -73,14 +82,16 @@
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <!--h3>Te ajudo na sua transformação TECH!</h3-->
-          <p class="fst-italic">
-            Sou Pós-Graduado pela POLI-USP de São Paulo em Engenharia de Software com +15 anos de experiência em Programação, Engenharia e Gestão de Pessoas. Com atuação em diversas Big Techs no mercado privado do Brasil, tais como iFood, Mercado Livre, Nubank, PicPay e B2w.
+          <p>
+            Com mais de 16 anos de experiência em tecnologia, atuo como Software Engineering Manager no PicPay, liderando times e impulsionando iniciativas estratégicas de alto impacto. Minha trajetória inclui passagem por algumas das maiores empresas de tecnologia do Brasil e do mundo como Nubank, iFood, Mercado Livre, B2W (Americanas, Submarino, Shoptime) e TATA Consultancy Services (Índia), acumulando vivência em ambientes de alta escala, complexidade e transformação contínua.
           </p>
           <p>
-            Acredito que muitos de vocês chegaram até aqui, pois imaginam que eu possa ajudar compartilhando algumas experiências que tenho ao longo de minha vida e carreira, como Programação, Engenharia de Software e Liderança.
+            Sou formado pela POLI-USP, com MBA em Liderança em Tecnologia, e mantenho um foco constante em evolução acadêmica e prática. Minha atuação combina liderança, engenharia de software, arquitetura de sistemas, produto e design, sempre orientado a decisões estruturadas, soluções simples e entregas de alto valor.
           </p>
           <p>
-            Se você busca mentoria, acesse meu perfil na <a href="https://app.awari.com.br/mentores/flavio-teixeira">Awari</a> para saber mais!
+            Ao longo da carreira, participei de momentos críticos de transformação tecnológica e construção de produtos estratégicos. Nos últimos anos, liderei e contribuí para projetos de grande porte como e-commerce, fintechs, superapps, plataformas de pagamentos e sistemas de energia, sempre com foco em escala, eficiência, experiência do cliente e resultados de negócio.
+          <p>
+            Sigo motivado por liderar times com propósito, desenvolver talentos e entregar soluções tecnológicas que realmente movam a empresa para o próximo nível.
           </p>
         </div>
       </div>
@@ -94,7 +105,26 @@
 
       <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper-wrapper">
-
+        <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Tive o privilégio de trabalhar com Flávio e testemunhar de perto sua habilidade excepcional de equilibrar a gestão de projetos com o desenvolvimento das pessoas envolvidas. Sua vasta experiência não só contribui para a melhoria contínua dos processos da equipe, mas também impacta diretamente a qualidade das entregas.
+                Além de garantir que os projetos avancem de forma eficiente, ele tem um olhar atento para o crescimento individual e coletivo, sempre motivando o time a buscar as melhores soluções. Sua liderança é marcada pela clareza, objetividade e incentivo ao aprendizado, criando um ambiente onde todos podem evoluir.
+                Se você procura um líder que une gestão estratégica, otimização de processos e desenvolvimento de talentos, Flávio é, sem dúvida, um profissional diferenciado.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+        <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                O Flavio é aquele líder que facilita o dia a dia. Fala de forma simples e direta, resolve problemas sem complicar e blinda ao máximo a equipe para que todos trabalhem focados. Ele incentiva o crescimento do time, e tive a oportunidade de ser promovido enquanto estava sob a liderança dele. Também cria processos que ajudam a equipe a entregar mais e melhor.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
           <div class="swiper-slide">
             <div class="testimonial-item">
               <p>
@@ -141,7 +171,7 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Flávio é um ótimo profissional, tem um conhecimento técnico raro de encontrar e é um parceiro de trabalho super comprometido. Ele tem habilidades incríveis para conectar soluções aos problemas e tem um lado humano que só um grande líder pode ter.
+                Recomendo o Flávio com muita facilidade e convicção. Ele tem uma comunicação clara e abordagem sempre respeitosa, consegue conduzir diálogos complexos de forma objetiva e tranquila, o que traz uma atmosfera colaborativa e produtiva ao ambiente de trabalho. Sua capacidade de organização é notável, permitindo a ele estruturar processos e coordenar o time com eficiência. Além disso, seu conhecimento técnico elevado se destaca como um pilar fundamental para o sucesso de qualquer projeto em que esteja envolvido. Flávio é um profissional completo, combinando habilidades técnicas e interpessoais que fazem a diferença. Tenho grande satisfação do tempo que trabalhamos juntos! 
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
@@ -160,7 +190,7 @@
   </section><!-- End About Section -->
 
 
-    <!-- ======= Services Section ======= -->
+  <!-- ======= Services Section ======= -->
   <section id="services" class="services">
     <div class="container">
 
@@ -213,6 +243,19 @@
               <div class="icon"><img src="blog/assets/img/performance.jpg" class="img-fluid" alt=""></div>
               Um pouco sobre times de alta performance
               <p>Como Gestor de Tecnologia, essa é a minha experiência com times de alta performance!</p>
+            </a>
+            </h4>
+          </div>
+        </div>
+
+
+         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box">
+            <h4>
+             <a href="blog/blog-delegar.html">
+              <div class="icon"><img src="blog/assets/img/deleg.jpg" class="img-fluid" alt=""></div>
+              Por que Delegar é Essencial?
+              <p>No mundo do desenvolvimento de software, saber delegar de forma eficiente é crucial!</p>
             </a>
             </h4>
           </div>

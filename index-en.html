@@ -34,17 +34,18 @@
   <header id="header">
     <div class="container">
 
-      <h1><a href="index-en.html">Flávio Teixeira</a></h1>
+      <h1>Flávio Teixeira</h1>
       <h2>Engineering <span>Tech</span> Manager</h2>
 
       <nav id="navbar" class="navbar">
         <ul>
           
-          <li><a class="nav-link active" href="#header">Home</a></li>
-          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#about">Home</a></li>
           <!--li><a class="nav-link" href="mentoria/index.html">Mentoria</a></li-->
           <!--li><a class="nav-link" href="#services">Blog</a></li-->
-          <li><a href="index.html"><i class="bi bi-globe-americas"> (PT)</i></a></li>
+          <li><a href="https://linkedin.com/in/flavio7eixeira"><i class="bi bi-linkedin"> LinkedIn</i></a></li>
+          <li><a href="index.html#about"><i class="bi bi-globe-americas"> (PT)</i></a></li>
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -73,14 +74,12 @@
           <img src="assets/img/me.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Engineering Tech Manager</h3>
           <p class="fst-italic">
-            I'm Engineering Tech Manager with MBA at POLI USP (São Paulo) and experiences in large technology companies like Nubank, PicPay, iFood, Mercado Livre, B2W (Americanas, Submarino and Shoptime), TATA (India) and so on, inside and outside of Brazil.
+            I'm Software Engineering Manager with MBA at POLI USP (São Paulo) and experiences in large technology companies like Nubank, PicPay, iFood, Mercado Livre, B2W (Americanas, Submarino and Shoptime), TATA (India) and so on, inside and outside of Brazil.
           </p>
           <p>
             I have experience with leadership and software engineering development, where I was able to meet great professionals and learn a lot from them. In the last years, I have been opportunity to work on the development of large projects like e-commerce, fintechs and energy control.
           </p>
-          <p>If you want to know more about me, check out my <a href="https://linkedin.com/in/flavio7eixeira">Linkedin</a>!</p>
         </div>
       </div>
     </div>
@@ -169,7 +168,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script>
+    window.addEventListener("load", () => {
+      if (!window.location.hash) {
+        window.location.hash = "about";
+      }
+    });
+  </script>
 </body>
 
 </html>
